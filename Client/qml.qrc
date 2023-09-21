@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>images/cab0.png</file>
+	<file>images/cab1.png</file>
+	<file>images/cab2.png</file>
+	<file>images/cab3.png</file>
+        <file>images/grass.png</file>
+        <file>images/road.png</file>
+        <file>images/passenger_entry.png</file>
+        <file>images/passenger_exit.png</file>
+    </qresource>
+</RCC>
