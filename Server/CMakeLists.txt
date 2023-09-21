@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.19.0)
 set(MBED_PATH ${CMAKE_CURRENT_SOURCE_DIR}/mbed-os CACHE INTERNAL "")
 set(MBED_CONFIG_PATH ${CMAKE_CURRENT_BINARY_DIR} CACHE INTERNAL "")
 set(JSONRPCPP_PATH ${CMAKE_CURRENT_SOURCE_DIR}/jsonrpcpp/include CACHE INTERNAL "")
-set(APP_TARGET taxi-sluzba-mbed)
+set(APP_TARGET Server)
 
 add_definitions("-fexceptions") # no need to add "-frtti" but remove "-fno-rtti" from cmake files in mbed-os/tools/cmake/profiles 
 
